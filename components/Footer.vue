@@ -1,16 +1,18 @@
 <template>
-  <b-container fluid>
-    <h1>Footer</h1>
-  </b-container>
+  <b-row class="footer" align-v="center">
+    <b-col>
+      <h1>Footer</h1>
+    </b-col>
+  </b-row>
 </template>
 <script>
 export default {
 
 }
 </script>
-<style scoped>
-.container-fluid {
-  background-color: #A8D0E6;
-  width: 100%;
+<style>
+.footer {
+  margin: 0;
+  width: 100vw;
 }
 </style>

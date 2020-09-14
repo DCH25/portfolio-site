@@ -1,14 +1,8 @@
 <template>
   <b-container fluid class="wrapper">
-    <b-row>
-      <Nav />
-    </b-row>
-    <b-row>
-      <Nuxt />
-    </b-row>
-    <b-row>
-      <Footer />
-    </b-row>
+    <Nav />
+    <Nuxt />
+    <Footer />
   </b-container>
 </template>
 
@@ -25,6 +19,8 @@ export default {
 <style scoped>
 .wrapper {
   margin: 0;
-  width: 100%;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 </style>
