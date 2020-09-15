@@ -16,11 +16,11 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style>
 .wrapper {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
 }
 </style>

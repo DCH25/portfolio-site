@@ -1,15 +1,15 @@
 <template>
   <b-navbar toggleable="sm" sticky>
-    <b-navbar-brand>
-      Daniel Chua
-    </b-navbar-brand>
+    <b-nav-text>DANIEL <span style="color: #EC0B43">CHUA</span></b-nav-text>
     <b-navbar-toggle target="nav-collapse" />
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item active>
-          Home
+      <b-navbar-nav align="right">
+        <b-nav-item to="/" exact>
+          HOME
         </b-nav-item>
-        <b-nav-item>Projects</b-nav-item>
+        <b-nav-item to="/projects" exact>
+          PROJECTS
+        </b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -23,12 +23,16 @@ export default {
 
 <style scoped>
 .navbar {
-    width: 100vw;
-    font-size: 1.5rem;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    width: 100%;
+    background-color: white;
 }
-.navbar-brand {
-    color: #E54B4B;
-    font-size: 1.5rem;
+.navbar-text {
+  color: black !important;
+}
+.navbar-nav {
+  width: 100%;
+}
+.nuxt-link-active {
+  color: #EC0B43 !important;
 }
 </style>

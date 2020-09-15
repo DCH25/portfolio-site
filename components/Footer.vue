@@ -1,7 +1,7 @@
 <template>
   <b-row class="footer" align-v="center">
     <b-col>
-      <h1>Footer</h1>
+      <h5>Made with NuxtJS and Bootstrap-Vue</h5>
     </b-col>
   </b-row>
 </template>
@@ -13,6 +13,6 @@ export default {
 <style>
 .footer {
   margin: 0;
-  width: 100vw;
+  width: 100%;
 }
 </style>

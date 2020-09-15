@@ -3,7 +3,7 @@
     <b-container fluid class="landing">
       <b-row class="top-landing" align-v="end">
         <b-col>
-          <h1>I am a <span style="color: #dec79b">Computer Science</span> student</h1>
+          <h1>Projects</h1>
         </b-col>
       </b-row>
       <b-row class="bot-landing">
