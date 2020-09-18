@@ -35,6 +35,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '@/plugins/contentful' }
   ],
   /*
   ** Auto import components
@@ -46,15 +47,15 @@ export default {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/dotenv'
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt',
-    '@nuxt/content'
+    'bootstrap-vue/nuxt'
   ],
   /*
   ** Build configuration

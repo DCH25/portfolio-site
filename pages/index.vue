@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style>
+.content {
+  padding: 0;
+}
 .skills {
   padding: 2vh;
   font-family: 'Libre Baskerville', 'serif';

@@ -11,9 +11,10 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
+    "@nuxtjs/dotenv": "^1.4.1",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
+    "contentful": "^7.14.6",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {
