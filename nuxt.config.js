@@ -1,9 +1,12 @@
+const env = require('dotenv').config()
+
 export default {
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'universal',
+  env: env.parsed,
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
