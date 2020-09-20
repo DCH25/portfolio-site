@@ -32,11 +32,19 @@ export default {
 <style scoped>
 .card {
   margin: 20px;
+  min-width: 30rem;
 }
 .rounded-pill {
   margin-right: 5px;
 }.card-text {
   padding-top: 2vh;
   color: black;
+}
+@media (max-width: 600px)
+{
+  .card {
+    margin: 20px;
+    min-width: 18rem;
+}
 }
 </style>

@@ -32,7 +32,7 @@ export default {
 .projects {
   min-height: 100vh;
   padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-bottom: 10vh;
 }
 h1 {
   color: white;
