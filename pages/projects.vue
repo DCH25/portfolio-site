@@ -3,12 +3,10 @@
     <h1 style="text-align: center">
       My Projects
     </h1>
-    <b-row
-      cols="1"
-      cols-sm="1"
-      cols-md="2"
-    >
-      <Project v-for="project in projects" :key="project.title" :post="project" />
+    <b-row>
+      <b-card-group deck>
+        <Project v-for="project in projects" :key="project.title" :post="project" />
+      </b-card-group>
     </b-row>
   </b-container>
 </template>
@@ -33,12 +31,9 @@ export default {
 <style scoped>
 .projects {
   background-color: #18181e;
-  font-family: 'Libre Baskerville', 'serif';
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 2vh;
-}
-.col {
-  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 h1 {
   color: white;

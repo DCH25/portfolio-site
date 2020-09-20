@@ -1,12 +1,24 @@
 <template>
-  <b-col>
-    <b-card
-      :title="post.title"
-      :img-src="post.image"
+  <b-card
+    :title="post.title"
+    :img-src="post.image"
+  >
+    <b-button
+      v-for="tag in post.tags"
+      :key="tag"
+      variant="outline-secondary"
+      pill
     >
-      <b-card-text>{{ post.description }}</b-card-text>
-    </b-card>
-  </b-col>
+      {{ tag }}
+    </b-button>
+    <b-card-text>{{ post.description }}</b-card-text>
+    <b-button
+      :href="post.link"
+      target="_blank"
+    >
+      View Demo
+    </b-button>
+  </b-card>
 </template>
 
 <script>
@@ -18,10 +30,12 @@ export default {
 </script>
 
 <style scoped>
-  .card {
-    max-width: 540px;
-  }
-  .card-text {
-    color: black;
-  }
+.card {
+  margin: 20px;
+}
+.rounded-pill {
+  margin-right: 5px;
+}.card-text {
+  color: black;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
   <b-row class="footer" align-v="center">
     <b-col>
-      <h5>Made with NuxtJS and Bootstrap-Vue</h5>
+      <h5>Footer</h5>
     </b-col>
   </b-row>
 </template>

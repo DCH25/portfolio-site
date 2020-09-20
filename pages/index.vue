@@ -19,8 +19,13 @@
       </b-row>
     </b-container>
     <b-container fluid class="skills">
-      <b-row align-h="center">
-        <h1>About Me</h1>
+      <b-row>
+        <b-col>
+          <h1 style="color: #dec79b">
+            About Me
+          </h1>
+          <h3>I'm Daniel Chua, currently in my second year of Computer Science at the University of Toronto</h3>
+        </b-col>
       </b-row>
     </b-container>
   </b-container>
@@ -31,27 +36,21 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .content {
   padding: 0;
-}
-.skills {
-  padding: 2vh;
   font-family: 'Libre Baskerville', 'serif';
+  color: white;
 }
 .landing {
   margin: 0;
   width: 100%;
-  background-color: #18181e;
   height: 100vh;
-  word-break: break-all;
-  color: white;
-  font-family: 'Libre Baskerville', 'serif';
 }
 .top-landing, .bot-landing {
   height: 50%;
 }
-@media (max-width: 600px)
+@media (max-width: 720px)
 {
   h1 {
     font-size: 1.2rem;

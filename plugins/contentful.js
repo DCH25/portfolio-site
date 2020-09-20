@@ -16,6 +16,8 @@ client.getProjectContent = () =>
         return {
           title: project.fields.title,
           description: project.fields.description,
+          link: project.fields.link,
+          tags: project.fields.tags,
           image: 'https:' + project.fields.image.fields.file.url
         }
       })

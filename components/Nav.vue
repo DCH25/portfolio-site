@@ -25,6 +25,7 @@ export default {
 .navbar {
     width: 100%;
     background-color: white;
+    font-size: 1.5rem;
 }
 .navbar-text {
   color: black !important;
