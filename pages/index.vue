@@ -29,6 +29,9 @@
           <h3>UNIX shell, C programming</h3>
           <h3>Web App Development</h3>
           <Command text="cat contact.txt" />
+          <h3>email: danielkchua@gmail.com></h3>
+          <h3>phone: (647)980-5721</h3>
+          <h3>location: Toronto, ON</h3>
         </b-col>
       </b-row>
     </b-container>
