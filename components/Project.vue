@@ -36,6 +36,7 @@ export default {
 .rounded-pill {
   margin-right: 5px;
 }.card-text {
+  padding-top: 2vh;
   color: black;
 }
 </style>

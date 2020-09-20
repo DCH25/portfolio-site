@@ -1,7 +1,7 @@
 <template>
   <b-row class="footer" align-v="center">
     <b-col>
-      <h5>Footer</h5>
+      <h5></h5>
     </b-col>
   </b-row>
 </template>
@@ -12,6 +12,8 @@ export default {
 </script>
 <style>
 .footer {
+  background-color: #18181e;
+  color: white;
   margin: 0;
   width: 100%;
 }

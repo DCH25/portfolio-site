@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="sm" sticky>
-    <b-nav-text>DANIEL <span style="color: #EC0B43">CHUA</span></b-nav-text>
+    <b-nav-text>DANIEL <span style="color: #e94560">CHUA</span></b-nav-text>
     <b-navbar-toggle target="nav-collapse" />
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav align="right">
@@ -34,6 +34,6 @@ export default {
   width: 100%;
 }
 .nuxt-link-active {
-  color: #EC0B43 !important;
+  color: #e94560 !important;
 }
 </style>

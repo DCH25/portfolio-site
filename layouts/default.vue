@@ -20,7 +20,7 @@ export default {
 .wrapper {
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #18181e;
   overflow-x: hidden;
 }

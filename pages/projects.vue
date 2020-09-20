@@ -30,7 +30,6 @@ export default {
 
 <style scoped>
 .projects {
-  background-color: #18181e;
   min-height: 100vh;
   padding-top: 2vh;
   padding-bottom: 2vh;

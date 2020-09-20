@@ -21,10 +21,13 @@
     <b-container fluid class="skills">
       <b-row>
         <b-col>
-          <h1 style="color: #dec79b">
-            About Me
-          </h1>
-          <h3>I'm Daniel Chua, currently in my second year of Computer Science at the University of Toronto</h3>
+          <Command text="cat about.txt" />
+          <h3>I'm Daniel Chua, currently in my second year of Computer Science at the University of Toronto.</h3>
+          <Command text="sort main-skillset.txt" />
+          <h3>Content Management (Netlify, Contentful)</h3>
+          <h3>Object Oriented Programming</h3>
+          <h3>UNIX shell, C programming</h3>
+          <h3>Web App Development</h3>
         </b-col>
       </b-row>
     </b-container>
@@ -32,19 +35,29 @@
 </template>
 
 <script>
+import Command from '@/components/Command'
 export default {
+  components: {
+    Command
+  }
 }
 </script>
 
 <style scoped>
 .content {
   padding: 0;
-  font-family: 'Libre Baskerville', 'serif';
+  font-family: 'PT Serif', serif;
   color: white;
 }
 .landing {
   margin: 0;
   width: 100%;
+  height: 100vh;
+}
+.skills {
+  background-color: black;
+  font-family: 'Ubuntu Mono', monospace;
+  padding-top: 2vh;
   height: 100vh;
 }
 .top-landing, .bot-landing {
