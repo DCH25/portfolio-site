@@ -2,6 +2,7 @@
   <b-col>
     <b-card
       :title="post.title"
+      :img-src="post.image"
     >
       <b-card-text>{{ post.description }}</b-card-text>
     </b-card>

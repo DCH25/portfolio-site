@@ -15,7 +15,8 @@ client.getProjectContent = () =>
       return items.map((project) => {
         return {
           title: project.fields.title,
-          description: project.fields.description
+          description: project.fields.description,
+          image: 'https:' + project.fields.image.fields.file.url
         }
       })
     })

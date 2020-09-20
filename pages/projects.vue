@@ -7,7 +7,6 @@
       cols="1"
       cols-sm="1"
       cols-md="2"
-      cols-lg="3"
     >
       <Project v-for="project in projects" :key="project.title" :post="project" />
     </b-row>
