@@ -1,8 +1,5 @@
 <template>
   <b-container fluid class="projects">
-    <h1 style="text-align: center">
-      My Projects
-    </h1>
     <b-row>
       <b-card-group deck>
         <Project v-for="project in projects" :key="project.title" :post="project" />
@@ -33,6 +30,10 @@ export default {
   min-height: 100vh;
   padding-top: 2vh;
   padding-bottom: 10vh;
+}
+.row {
+  width: 100%;
+  margin: 0;
 }
 h1 {
   color: white;

@@ -25,9 +25,10 @@
           <h3>I'm Daniel Chua, currently in my second year of Computer Science at the University of Toronto.</h3>
           <Command text="sort main-skillset.txt" />
           <h3>Content Management (Netlify, Contentful)</h3>
-          <h3>Object Oriented Programming</h3>
+          <h3>Object Oriented Programming Languages: C#, Java</h3>
           <h3>UNIX shell, C programming</h3>
           <h3>Web App Development</h3>
+          <Command text="cat contact.txt" />
         </b-col>
       </b-row>
     </b-container>
