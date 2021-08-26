@@ -14,7 +14,7 @@
       </b-row>
       <b-row class="bot-landing">
         <b-col>
-          <h3>with experience in frontend development</h3>
+          <h3>with experience in Embedded and Full Stack development</h3>
         </b-col>
       </b-row>
     </b-container>
