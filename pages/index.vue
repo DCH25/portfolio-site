@@ -14,7 +14,9 @@
       </b-row>
       <b-row class="bot-landing">
         <b-col>
-          <h3>with experience in Embedded and Full Stack development</h3>
+          <h3>with experience in Full Stack and Embedded development</h3>
+          <a class="social-link" href="https://www.linkedin.com/in/daniel-chua-b97bb6149/"><b-img src="@/assets/logos/LI-light.png" height="32px" width="32px" /></a>
+          <a class="social-link" href="https://github.com/DCH25"><b-img src="@/assets/logos/GitHub-light.png" height="32px" width="32px" /></a>
         </b-col>
       </b-row>
     </b-container>
@@ -34,6 +36,7 @@ export default {
   margin: 0;
   width: 100%;
   height: 100vh;
+  padding-left: 16px;
 }
 .landing-text {
   font-weight: 700;
@@ -41,6 +44,9 @@ export default {
 }
 .top-landing, .bot-landing {
   height: 50%;
+}
+.social-link {
+  padding-right: 5px;
 }
 @media (max-width: 720px)
 {

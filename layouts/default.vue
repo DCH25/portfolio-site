@@ -2,17 +2,14 @@
   <b-container fluid class="wrapper">
     <Nav />
     <Nuxt />
-    <Footer />
   </b-container>
 </template>
 
 <script>
 import Nav from '@/components/Nav'
-import Footer from '@/components/Footer'
 export default {
   components: {
-    Nav,
-    Footer
+    Nav
   }
 }
 </script>

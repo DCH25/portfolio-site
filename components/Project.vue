@@ -14,6 +14,7 @@
     <b-card-text>{{ post.description }}</b-card-text>
     <b-button
       :href="post.link"
+      class="demo-button"
       target="_blank"
     >
       View Demo
@@ -33,12 +34,17 @@ export default {
 .card {
   margin: 20px;
   min-width: 30rem;
+  background-color: #DDD7E5;
 }
 .rounded-pill {
   margin-right: 5px;
+  color: #161023;
 }.card-text {
   padding-top: 2vh;
   color: black;
+}
+.demo-button {
+  background-color: #705C93;
 }
 @media (max-width: 600px)
 {
