@@ -15,7 +15,7 @@ export default {
 </script>
 <style>
 .footer {
-  background-color: white;
+  background-color: #dcd6e5;
   margin: 0;
   padding: 1vh;
   width: 100%;

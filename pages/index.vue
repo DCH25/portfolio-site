@@ -7,8 +7,8 @@
         align-h="center"
       >
         <b-col>
-          <h1>
-            I am a <span style="color: #dec79b">Computer Science</span> student
+          <h1 class="landing-text">
+            I am a <span style="color: #705c93">Software Developer</span>
           </h1>
         </b-col>
       </b-row>
@@ -18,51 +18,26 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="skills">
-      <b-row>
-        <b-col>
-          <Command text="cat about.txt" />
-          <h3>I'm Daniel Chua, currently in my second year of Computer Science at the University of Toronto.</h3>
-          <Command text="sort main-skillset.txt" />
-          <h3>Content Management (Netlify, Contentful)</h3>
-          <h3>Object Oriented Programming Languages: C#, Java</h3>
-          <h3>UNIX shell, C programming</h3>
-          <h3>Web App Development</h3>
-          <Command text="cat contact.txt" />
-          <h3>email: danielkchua@gmail.com></h3>
-          <h3>phone: (647)980-5721</h3>
-          <h3>location: Toronto, ON</h3>
-        </b-col>
-      </b-row>
-    </b-container>
   </b-container>
 </template>
 
 <script>
-import Command from '@/components/Command'
 export default {
-  components: {
-    Command
-  }
 }
 </script>
 
 <style scoped>
 .content {
   padding: 0;
-  font-family: 'PT Serif', serif;
-  color: white;
 }
 .landing {
   margin: 0;
   width: 100%;
   height: 100vh;
 }
-.skills {
-  background-color: black;
-  font-family: 'Ubuntu Mono', monospace;
-  padding-top: 2vh;
-  height: 100vh;
+.landing-text {
+  font-weight: 700;
+  font-size: 5rem;
 }
 .top-landing, .bot-landing {
   height: 50%;

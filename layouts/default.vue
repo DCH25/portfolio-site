@@ -20,8 +20,9 @@ export default {
 .wrapper {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #18181e;
+  font-family: 'Poppins', sans-serif;
+  background-color: #161024;
+  color: #dcd6e5;
   overflow-x: hidden;
 }
 </style>

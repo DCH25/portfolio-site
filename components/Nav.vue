@@ -1,14 +1,14 @@
 <template>
   <b-navbar toggleable="sm" sticky>
-    <b-nav-text>DANIEL <span style="color: #e94560">CHUA</span></b-nav-text>
+    <b-nav-text>Daniel <span style="color: #705c93">Chua</span></b-nav-text>
     <b-navbar-toggle target="nav-collapse" />
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav align="right">
         <b-nav-item to="/" exact>
-          HOME
+          home
         </b-nav-item>
         <b-nav-item to="/projects" exact>
-          PROJECTS
+          projects
         </b-nav-item>
       </b-navbar-nav>
     </b-collapse>
@@ -24,16 +24,21 @@ export default {
 <style scoped>
 .navbar {
     width: 100%;
-    background-color: white;
+    background-color: #161024;
     font-size: 1.5rem;
 }
 .navbar-text {
-  color: black !important;
+  color: #dcd6e5 !important;
 }
+
+.nav-link{
+  color: #dcd6e5 !important;
+}
+
 .navbar-nav {
   width: 100%;
 }
 .nuxt-link-active {
-  color: #e94560 !important;
+  color: #705c93 !important;
 }
 </style>
