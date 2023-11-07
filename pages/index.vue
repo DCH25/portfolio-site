@@ -1,60 +1,65 @@
 <template>
   <b-container fluid class="content">
-    <b-container fluid class="landing">
-      <b-row
-        class="top-landing"
-        align-v="end"
-        align-h="center"
-      >
-        <b-col>
-          <h1 class="landing-text">
-            I am a <span style="color: #705c93">Software Developer</span>
-          </h1>
-        </b-col>
-      </b-row>
-      <b-row class="bot-landing">
-        <b-col>
-          <h3>with experience in Full Stack and Embedded development</h3>
-          <a class="social-link" href="https://www.linkedin.com/in/daniel-chua-b97bb6149/"><b-img src="@/assets/logos/LI-light.png" height="32px" width="32px" /></a>
-          <a class="social-link" href="https://github.com/DCH25"><b-img src="@/assets/logos/GitHub-light.png" height="32px" width="32px" /></a>
-        </b-col>
-      </b-row>
-    </b-container>
+    <div class="landing">
+      <h1 class="landing-text">
+        I am a <span style="color: #705c93">Software Developer</span>
+      </h1>
+      <h3 class="landing-subtext">with experience in Full Stack and Embedded development</h3>
+      <a class="social-link" href="https://www.linkedin.com/in/daniel-chua-b97bb6149/"><b-img src="@/assets/logos/LI-light.png" height="32px" width="32px" /></a>
+      <a class="social-link" href="https://github.com/DCH25"><b-img src="@/assets/logos/GitHub-light.png" height="32px" width="32px" /></a>
+      <a href="../../Daniel_Chua_CV.pdf" download="">
+        <b-button class="resume-button">
+          Resume (PDF)
+        </b-button>
+      </a>
+    </div>
   </b-container>
 </template>
 
 <script>
+import ScrollOut from 'scroll-out'
 export default {
+  mounted () {
+    this.so = ScrollOut({
+      scope: this.$el
+    })
+  },
+  destroyed () {
+    this.so.teardown()
+  }
 }
 </script>
 
 <style scoped>
 .content {
+  height: calc(100vh - 68px);
   padding: 0;
 }
 .landing {
   margin: 0;
+  padding-top: 15%;
   width: 100%;
-  height: 100vh;
   padding-left: 16px;
 }
 .landing-text {
   font-weight: 700;
-  font-size: 5rem;
+  font-size: clamp(2rem, 4vw, 5rem);
 }
-.top-landing, .bot-landing {
-  height: 50%;
+.landing-subtext {
+  font-size: clamp(1rem, 3vw, 3rem);
 }
 .social-link {
-  padding-right: 5px;
+  padding-right: 8px;
 }
-@media (max-width: 720px)
-{
-  h1 {
-    font-size: 1.2rem;
-  }
-  h3 {
-    font-size: 1rem;
-  }
+.resume-button {
+  background-color: #705c93;
+  color: #ddd7e5;
+  border: none;
+}
+.resume-button:hover {
+  outline: 2px solid #ddd7e5;
+}
+.resume-button:focus {
+  outline: 2px solid #ddd7e5;
 }
 </style>
